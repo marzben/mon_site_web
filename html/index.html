@@ -9,12 +9,15 @@
     <title>Mon premier site</title>
     <!--titre affiché au niveau de l'onglet du navigateur-->
     <link rel="stylesheet" href="/css/styles.css">
+     <!--gestion de l'affichage sur mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   </head>
   <body>
     <!--le corps de ma ma page-->
-    <header>
-      <img src="/images/téléchargement.jpeg" alt="description" />
+    <header class="main-header">
       <nav>
+        <img src="/images/téléchargement.jpeg" alt="description" id="logo" />
         <ul>
           <li><a href="#">Accueil</a></li>
           <li><a href="#">Nos formation</a></li>
@@ -25,6 +28,7 @@
         </ul>
       </nav>
     </header>
+    <!--contenu principal dans la balise main-->
     <main>
       <h1>Bienvenue sur première page</h1>
       <section>

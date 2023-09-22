@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.main-header {
+  background-color: #85c1e9;
+}
+
+#logo {
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+nav {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+a {
+  font-size: 1em;
+  text-decoration: none;
+}
